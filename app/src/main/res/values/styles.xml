@@ -1,0 +1,6 @@
+<resources>
+<style name="Theme.ScannerE327" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:fontFamily">sans</item>
+    <item name="android:navigationBarColor">#000000</item>
+</style>
+</resources>

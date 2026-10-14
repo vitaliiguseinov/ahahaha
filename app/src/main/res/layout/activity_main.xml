@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="18dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/title" android:text="Сканер E327 — Renault Duster"
+            android:textSize="24sp" android:textStyle="bold"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/status" android:text="ELM327: не подключён"
+            android:textSize="17sp" android:paddingTop="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/connect" android:text="Подключить ELM327"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/readCodes" android:text="Считать ошибки"
+            android:enabled="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/clearCodes" android:text="Очистить ошибки"
+            android:enabled="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/readParams" android:text="Параметры двигателя"
+            android:enabled="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/ecuInfo" android:text="Проверить связь с ЭБУ"
+            android:enabled="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/result" android:text="Результат диагностики появится здесь."
+            android:textSize="16sp" android:paddingTop="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
