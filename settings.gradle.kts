@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ScannerE327"
+include(":app")
